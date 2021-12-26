@@ -1,0 +1,15 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.add button{
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: lightslategray;
+    margin-left: 3px;
+}
