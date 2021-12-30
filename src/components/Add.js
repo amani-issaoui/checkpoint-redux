@@ -10,8 +10,10 @@ function Add() {
  
  const handleSubmit=(e)=>{
      e.preventDefault();
-     dispatch(add(test));
-     setTest("");
+     if(test!=""){  dispatch(add(test));
+        setTest("");}
+        else{ alert("you must input task")}
+   
  };
 
  const handleChange=(e)=>{
